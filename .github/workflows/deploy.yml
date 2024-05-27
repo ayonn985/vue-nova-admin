@@ -1,5 +1,5 @@
 # 定义 GitHub Actions 工作流程，用于将 vue3-iqoo-admin-easy-template 部署到 GitHub Pages
-name: Deploy vue3-nova-admin-mini-template to Pages
+name: Deploy vue-nova-admin to Pages
 
 # 定义触发条件
 on:
