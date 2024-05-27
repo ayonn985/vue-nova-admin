@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "cloudflare:build": "vite build --base=./",
-    "github:build": "vite build --base=/vue3-nova-admin-mini-template/",
+    "github:build": "vite build --base=/vue-nova-admin/",
     "preview": "vite preview",
     "release": "release-it",
     "release:first": "release-it --no-git.requireUpstream",
