@@ -30,6 +30,13 @@ const locale = computed(() => {
 
 // 初始化主题配置
 initThemeConfig();
+
+// 控制台输出版本信息
+console.log(
+    `%c NOVA-ADMIN %c V1.0.0 `,
+    "padding: 2px 1px; border-radius: 3px 0 0 3px; color: #fff; background: #6169FF; font-weight: bold;",
+    "padding: 2px 1px; border-radius: 0 3px 3px 0; color: #fff; background: #42c02e; font-weight: bold;"
+);
 </script>
 
 <template>

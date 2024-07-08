@@ -38,7 +38,9 @@ const handleCommand = (command) => {
   </el-image>
   <el-dropdown class="ml-[10px]" :hide-on-click="false" @command="handleCommand">
     <div class="nova-dropdown">
-      Vite(管理员)
+      <div class="overflow-hidden text-ellipsis whitespace-nowrap max-w-[113px] text-[14px] mr-[6px] inline-block">
+        Vite(管理员)
+      </div>
       <el-icon><arrow-down /></el-icon>
     </div>
     <template #dropdown>

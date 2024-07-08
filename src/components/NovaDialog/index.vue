@@ -136,6 +136,9 @@ defineExpose({
     padding: 0;
   }
 }
+.el-dialog__footer {
+  padding: 10px;
+}
 .el-dialog__body {
   // 内容区域内边距
   padding: 10px;

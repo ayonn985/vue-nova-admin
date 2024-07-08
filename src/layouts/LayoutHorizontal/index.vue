@@ -88,6 +88,8 @@ const activeMenu = computed(() => (route.meta.activeMenu ? route.meta.activeMenu
   height: 100vh;
   .layout-header {
     display: flex;
+    box-sizing: border-box;
+    padding: 0 20px 0 0;
     align-items: center;
     justify-content: space-between;
     height: $aside-header-height;

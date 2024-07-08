@@ -62,13 +62,13 @@ watch(
       v-if="props.layout === 'columns'"
     />
     <img
-      class="ml-[6px] mr-[12px] novaLogoImg rounded-full select-none"
+      class="ml-[17px] mr-[12px] novaLogoImg rounded-full select-none"
       :src="logoUrl"
       alt="avatar"
       v-if="props.layout === 'horizontal'"
     />
     <span
-      class="novaTitle font-bold max-w-[140px] truncate"
+      class="novaTitle font-bold truncate"
       :class="titleAnimate"
       v-text="title"
       v-show="!props.isCollapse"
